@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".filem4">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bb">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="154dp"
+            android:layout_height="36dp"
+            android:fontFamily="@font/trocchi_regular"
+            android:text="NOW PLAYING"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.533"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="33dp" />
+
+        <ImageView
+            android:id="@+id/gambar1"
+            android:layout_width="723dp"
+            android:layout_height="829dp"
+            android:layout_marginTop="5dp"
+            android:scrollbarSize="30dp"
+            android:src="@drawable/bpink"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text1"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-156dp" />
+
+        <ImageView
+            android:id="@+id/filem1"
+            android:layout_width="191dp"
+            android:layout_height="221dp"
+            android:src="@drawable/loan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="101dp"
+            app:layout_constraintTop_toBottomOf="@id/text1"
+            app:layout_constraintEnd_toStartOf="@id/text2"
+            android:layout_marginTop="35dp"/>
+
+        <TextView
+            android:id="@+id/filmName4"
+            android:layout_width="191dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/trocchi_regular"
+            android:text="HOME SWEET LOAN"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toEndOf="@id/filem1"
+            app:layout_constraintTop_toTopOf="@id/filem1"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="136dp"
+            android:layout_height="36dp"
+            android:text="⭐⭐⭐⭐"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="@id/filmName4"
+            app:layout_constraintTop_toBottomOf="@id/filmName4"
+            android:layout_marginTop="0dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="145dp"
+            android:layout_height="30dp"
+            android:fontFamily="@font/trocchi_regular"
+            android:text="Drama Keluarga"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            app:layout_constraintStart_toStartOf="@id/filmName4"
+            app:layout_constraintTop_toBottomOf="@id/text3"
+            android:layout_marginTop="0dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/gambar2"
+            android:layout_width="24dp"
+            android:layout_height="34dp"
+            android:src="@drawable/timer"
+            app:layout_constraintStart_toStartOf="@id/filmName4"
+            app:layout_constraintTop_toBottomOf="@id/text4"
+            android:layout_marginTop="1dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="130dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/trocchi_regular"
+            android:text="1 Jam 52 Menit"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            app:layout_constraintStart_toEndOf="@id/gambar2"
+            app:layout_constraintTop_toTopOf="@id/gambar2"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/gambar3"
+            android:layout_width="40dp"
+            android:layout_height="42dp"
+            android:src="@drawable/bell"
+            tools:layout_editor_absoluteX="334dp"
+            tools:layout_editor_absoluteY="16dp"
+            app:layout_constraintStart_toEndOf="@id/text1"
+            android:layout_marginStart="70dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/gambar4"
+            android:layout_width="75dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="320dp"
+            android:src="@drawable/baseline_arrow_back_ios_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="22dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="372dp"
+            android:layout_height="419dp"
+            android:layout_marginTop="35dp"
+            android:fontFamily="@font/times_new_roman"
+            android:text="Bahasa Indonesia – Kaluna, pegawai bagian umum, bermimpi membeli rumah demi keluar dari rumah dengan tiga kepala keluarga, Ayah dan kedua kakaknya. Namun, gajinya yang tak pernah menyentuh dua digit membuatnya serasa bermimpi untuk memiliki rumah idaman yang minimal... nyerempet Jakarta. Dengan modal usaha ngirit, kerja sampingan sebagai model bibir, dan pinjaman kantor, Kaluna bersama tiga sahabatnya berjuang menemukan rumah yang sesuai. Di tengah segala perjuangannya, Kaluna tiba-tiba harus dihadapkan pada keputusan finansial keluarga yang sulit. Kaluna dihadapkan pada pilihan antara memperjuangkan rumah atau keluarganya."
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/filem1"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/buytiket"
+            android:layout_width="393dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/bb_button"
+            android:contentDescription="pemesanan"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text6"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="123dp"
+            android:layout_height="34dp"
+            android:fontFamily="@font/trocchi_regular"
+            android:text="BUY TIKET"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/buytiket"
+            app:layout_constraintTop_toBottomOf="@id/text6"
+            android:layout_marginTop="40dp"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

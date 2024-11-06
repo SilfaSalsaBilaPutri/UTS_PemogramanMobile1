@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginSignUp"
+    android:background="@drawable/bb">
+
+    <ImageView
+        android:id="@+id/gambar1"
+        android:layout_width="62dp"
+        android:layout_height="54dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toStartOf="@id/gambar2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:id="@+id/gambar2"
+        android:layout_width="114dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/tixpop"
+        app:layout_constraintStart_toEndOf="@id/gambar1"
+        app:layout_constraintTop_toTopOf="@id/gambar1" />
+
+    <ImageView
+        android:id="@+id/gambar3"
+        android:layout_width="287dp"
+        android:layout_height="311dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/welcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gambar2" />
+
+    <ImageView
+        android:id="@+id/gambar4"
+        android:layout_width="419dp"
+        android:layout_height="363dp"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/bingkai_pink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gambar3" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="369dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/trocchi_regular"
+        android:gravity="center"
+        android:text="Nikmati pengalaman menonton tanpa gangguan dengan memesan tiket bioskop favoritmu secara online, bebas antri, dan langsung pilih kursi terbaik!"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gambar3"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="344dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/login"
+        android:contentDescription="Login Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text1" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="344dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/signup"
+        android:contentDescription="Signup Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

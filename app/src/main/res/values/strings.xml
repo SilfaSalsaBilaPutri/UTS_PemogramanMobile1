@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TiketBioskop</string>
+
+    <string-array name="location_array">
+        <item>Sentra Grosis Cikarang XXI</item>
+        <item>CGV Living Plaza Jababeka</item>
+        <item>Cinepolis Distrik 1 Miekarta</item>
+    </string-array>
+
+    <string-array name="seat_type_array">
+        <item>Regular</item>
+        <item>VIP</item>
+        <item>VVIP</item>
+    </string-array>
+
+    <string-array name="bank_array">
+        <item>BRI</item>
+        <item>BCA</item>
+        <item>MANDIRI</item>
+        <item>BANK PERMATA</item>
+        <item>E Wallet</item>
+    </string-array>
+</resources>
